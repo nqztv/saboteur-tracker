@@ -8,4 +8,5 @@ window.onload = function() {
       var count = event.target.textContent;
       event.target.textContent = count - 1;
     }, false);
+  });
 };
