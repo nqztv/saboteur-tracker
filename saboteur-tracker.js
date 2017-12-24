@@ -5,7 +5,7 @@ window.onload = function() {
   
   Array.from(cards).forEach(function(element) {
     element.addEventListener("click", function(event) {
-      console.log(event.target);
+      console.log("clicked on " + event.target.id);
       
       var count = event.target.textContent;
       if (count == 0) {
