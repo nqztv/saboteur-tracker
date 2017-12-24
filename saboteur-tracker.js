@@ -3,7 +3,6 @@ window.onload = function() {
   console.log(cards);
   console.log(cards.length);
   
-  /*
   Array.from(cards).forEach(function(element) {
     element.addEventListener("click", function(event) {
       console.log(event.target.textContent);
@@ -12,5 +11,4 @@ window.onload = function() {
       event.target.textContent = count - 1;
     }, false);
   });
-  */
 };
