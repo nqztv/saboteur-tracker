@@ -2,8 +2,37 @@
 	background-color: #ccc;
 	width: 128px;
 	height: 197px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 197px;
+	font-size: 122px;
+	color: white;
 }
 
 #path-h {
 	background-image: url("images/path-h.png");
+}
+
+#path-v {
+	background-image: url("images/path-v.png");
+}
+
+#path-r {
+	background-image: url("images/path-r.png");
+}
+
+#path-7 {
+	background-image: url("images/path-7.png");
+}
+
+#path-t {
+	background-image: url("images/path-t.png");
+}
+
+#path-vt {
+	background-image: url("images/path-vt.png");
+}
+
+#path-cross {
+	background-image: url("images/path-cross.png");
 }
