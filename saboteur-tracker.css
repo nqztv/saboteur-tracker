@@ -7,6 +7,8 @@
 	line-height: 197px;
 	font-size: 122px;
 	color: white;
+	text-stroke-width: 1px;
+	text-stroke-color: black;
 }
 
 #path-h {
