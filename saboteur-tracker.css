@@ -10,30 +10,242 @@
 	-webkit-text-stroke: 2px black;
 }
 
-#path-h {
-	background-image: url("images/path-h.png");
+
+#paths {
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 
-#path-v {
-	background-image: url("images/path-v.png");
+#blocks {
+	position: absolute;
+	left: 512px;
+	top: 0px;
 }
 
-#path-r {
-	background-image: url("images/path-r.png");
+#tools {
+	position: absolute;
+	left: 0px;
+	top: 800px;
 }
 
-#path-7 {
-	background-image: url("images/path-7.png");
+#other {
+	position: absolute;
+	left: 512px;
+	top: 1000px;
+}
+
+
+#path-cross {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-image: url("images/path-cross.png");
 }
 
 #path-t {
+	position: absolute;
+	left: 128px;
+	top: 0px;
 	background-image: url("images/path-t.png");
 }
 
+#path-h {
+	position: absolute;
+	left: 256px;
+	top: 0px;
+	background-image: url("images/path-h.png");
+}
+
 #path-vt {
+	position: absolute;
+	left: 0px;
+	top: 200px;
 	background-image: url("images/path-vt.png");
 }
 
-#path-cross {
-	background-image: url("images/path-cross.png");
+#path-r {
+	position: absolute;
+	left: 128px;
+	top: 200px;
+	background-image: url("images/path-r.png");
+}
+
+#path-v {
+	position: absolute;
+	left: 0px;
+	top: 400px;
+	background-image: url("images/path-v.png");
+}
+
+#path-7 {
+	position: absolute;
+	left: 128px;
+	top: 400px;
+	background-image: url("images/path-7.png");
+}
+
+
+#block-cross {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-image: url("images/block-cross.png");
+}
+
+#block-t {
+	position: absolute;
+	left: 128px;
+	top: 0px;
+	background-image: url("images/block-t.png");
+}
+
+#block-h {
+	position: absolute;
+	left: 256px;
+	top: 0px;
+	background-image: url("images/block-h.png");
+}
+
+#block-hook {
+	position: absolute;
+	left: 384px;
+	top: 0px;
+	background-image: url("images/block-hook.png");
+}
+
+#block-vt {
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	background-image: url("images/block-vt.png");
+}
+
+#block-r {
+	position: absolute;
+	left: 128px;
+	top: 200px;
+	background-image: url("images/block-r.png");
+}
+
+#block-v {
+	position: absolute;
+	left: 0px;
+	top: 400px;
+	background-image: url("images/block-v.png");
+}
+
+#block-7 {
+	position: absolute;
+	left: 128px;
+	top: 400px;
+	background-image: url("images/block-7.png");
+}
+
+#block-noodle {
+	position: absolute;
+	left: 0px;
+	top: 600px;
+	background-image: url("images/block-noodle.png");
+}
+
+
+#break-ax {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -1322px 0px;
+}
+
+#break-lamp {
+	position: absolute;
+	left: 128px;
+	top: 0px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -1083px 0px;
+}
+
+#break-trolley {
+	position: absolute;
+	left: 256px;
+	top: 0px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -1563px 0px;
+}
+
+#fix-ax {
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -1443px 0px;
+}
+
+#fix-lamp {
+	position: absolute;
+	left: 128px;
+	top: 200px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -1203px 0px;
+}
+
+#fix-trolley {
+	position: absolute;
+	left: 256px;
+	top: 200px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -1683px 0px;
+}
+
+#fix-axlamp {
+	position: absolute;
+	left: 0px;
+	top: 400px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -481px 0px;
+}
+
+#fix-axtrolley {
+	position: absolute;
+	left: 128px;
+	top: 400px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -603px 0px;
+}
+
+#fix-lamptrolley {
+	position: absolute;
+	left: 256px;
+	top: 400px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -361px 0px;
+}
+
+
+#map {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -1803px 0px;
+}
+
+#rockfall {
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	width: 120px;
+	height: 194px;
+	background: url("images/back_action_gold.jpg") -1923px 0px;
 }
